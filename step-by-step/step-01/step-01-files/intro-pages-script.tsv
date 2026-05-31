@@ -1,0 +1,10 @@
+module	action	modifier	object	value
+input	set		xpltags	false
+input	set		dirdepth	1
+input	open	notenik-defined		#PATH#../../content/intro
+sort	clear			
+sort	add	ascending	Seq2	
+sort	set		params	
+template	webroot			#PATH#../../web
+template	open			#PATH#../templates/intro-page-template.html
+template	generate			
