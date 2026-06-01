@@ -23,7 +23,7 @@ First, I added the `=$relative$=` merge template variable before the `css` folde
 <link rel="stylesheet" href="=$relative$=css/styles.css" />
 ```
 
-And then, instead of putting this line directly into the template file, I created a file named `head-links.html` within the `factory/includes` folder, and placed inside of that file. 
+And then, instead of putting this line directly into the template file, I created a file named `head-links.html` within the `factory/includes` folder, and placed it inside of that file. 
 
 The HTML template file then had the following line added, to pull in the include file we just created. 
 
