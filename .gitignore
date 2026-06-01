@@ -1,3 +1,5 @@
 .DS_Store
 *.bbprojectd
 - project-INFO.nnk
+temp_display.html
+*.webloc

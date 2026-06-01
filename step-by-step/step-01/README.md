@@ -1,4 +1,4 @@
-# Step 01 Instructions
+# Step 01 - Basic HTML Generation
 
 I created an initial folder of content using Notenik. 
 
