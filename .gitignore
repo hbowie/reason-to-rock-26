@@ -4,3 +4,15 @@
 temp_display.html
 *.webloc
 /web/fonts
+/import/authors
+/import/biblio-author-import-script.tcz
+/import/biblio-author-import-template.mdtext
+/import/biblio-work-import-script.tcz
+/import/biblio-work-import-template.mdtext
+/import/elements
+/import/intro-pages.tsv
+/import/items.csv
+/import/items.xls
+/import/pages.xls
+/import/technology.xls
+/import/works

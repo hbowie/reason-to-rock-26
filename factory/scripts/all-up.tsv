@@ -1,0 +1,11 @@
+module	action	modifier	object	value
+
+<!-- Include all the focused scripts -->
+
+script	set		log-noise	quiet
+script	include			home-page-script.tsv
+script	include			intro-pages-script.tsv
+
+<!-- Open the Web Browser to the Home Page -->
+
+browse	open	url		http://localhost/~hbowie/ReasonToRock-26/web/

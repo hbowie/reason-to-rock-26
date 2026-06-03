@@ -2,7 +2,7 @@
 
 The first thing to do here is to select some appropriately classy fonts for your website. 
 
-I recommend [Butterick's Practical Typography](https://practicaltypography.com as an important educational resource on this topic.
+I recommend [Butterick's Practical Typography](https://practicaltypography.com) as an important educational resource on this topic.
 
 In fact, I can also recommend the professional fonts designed and sold by Matthew Butterick, which can be found at [MBType.com](https://mbtype.com).
 
