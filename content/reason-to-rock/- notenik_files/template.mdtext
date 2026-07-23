@@ -10,9 +10,13 @@ Seq: <seq>
 
 Level: <level: 1 - Book Title; 2 - Section; 3 - Topic; 4 - Subtopic; 5 - Detail; 6 - Subdetail; >
 
-Class: <class: author, back, biblio, cover, def, exclude, front, intro, quote, section, text, text-section, title-page, topic, topic-with-image, work >
+Class: <class: artist, author, back, biblio, cover, def, exclude, front, intro, post, quote, section, text, text-section, title-page, topic, topic-with-image, track, work >
 
-Link: <link>
+Image Name: <imagename>
+
+Image Class: <combo>
+
+Link: <link: x|s|s|x|x>
 
 Attribution: <attribution>
 
@@ -22,7 +26,7 @@ Author: <author>
 
 Author Info: 
 
-Author Years: 
+Years Lived: 
 
 Work Pages: 
 
@@ -39,6 +43,18 @@ Work Rights Holder:
 Publisher: 
 
 Publisher City: 
+
+Songwriters: <author>
+
+Recording Artist: <author>
+
+Producer: <author>
+
+Date of Song: <date>
+
+Apple Music Link: <link: x|s|s|x|x>
+
+Apple Music Player: <code>
 
 Body: 
 

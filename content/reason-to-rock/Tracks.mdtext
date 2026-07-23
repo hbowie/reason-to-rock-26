@@ -5,3 +5,11 @@ Seq:    4
 Level:  2 - Section
 
 Class:  section
+
+Body:
+
+{:sort-table: tracks-table}
+| Year | Artist | Title |
+| ---- | ---- | ---- |
+|  1936 | [[Robert Johnson]] | [[Come On In My Kitchen]] |
+| 1968 | [[Jimi Hendrix]] | [[All Along The Watchtower]] |

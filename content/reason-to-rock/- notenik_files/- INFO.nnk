@@ -12,7 +12,7 @@ Sort Blank Dates Last: true
 
 Other Fields Allowed: false
 
-Last Index Selected: 58
+Last Index Selected: 35
 
 Mirror Auto Index: false
 
@@ -34,7 +34,7 @@ MathJax: false
 
 Local Images: true
 
-Missing Targets: true
+Missing Targets: false
 
 Curly Apostrophes: true
 
@@ -42,17 +42,47 @@ Ext Links Open in New Windows: true
 
 Scrolling Sync: false
 
+Web Book Folder: /Users/hbowie/Sites/reasontorock/web/refresh-26
+
+Web Book EPUB: false
+
 ToC Depth: 3
 
 Note File Format: nnk
 
 Hash Tags: notenik-field
 
-Window Numbers: 251.0;0.0;1275.0;1402.0;496.0;
+Window Numbers: 297.0;0.0;1281.0;1410.0;496.0;
 
-Column Widths: rank: 50, 80, 250; klass: 60, 80, 150; date: 80, 120, 500; seq: 30, 93, 250; title: 200, 445, 1500; tags: 50, 100, 1200; datemod: 100, 180, 250; dateadded: 100, 180, 250; x: 12, 20, 50; mk: 24, 36, 48; author: 100, 200, 1000; statusdigit: 20, 30, 50; 
+Column Widths: date: 80, 120, 500; dateadded: 100, 180, 250; datemod: 100, 180, 250; mk: 24, 36, 48; author: 100, 200, 1000; rank: 50, 80, 250; tags: 50, 100, 1200; seq: 30, 93, 250; title: 200, 445, 1500; klass: 60, 80, 150; x: 12, 20, 50; statusdigit: 20, 30, 50; 
 
-Note Picker Action: Copy and Paste Include Command
+author Note ID: collectionauthor
+
+footer Note ID: footerpage
+
+header Note ID: headerpage
+
+nav Note ID: navpage
+
+Note Picker Action: Copy and Paste Wikilink
 
 Boost Factor: 1.2
+
+Special Fonts Config: true
+
+display-font: Heliotrope 3
+
+display-size: 16
+
+h-display-font: Concourse 4
+
+h-display-size: 2.0
+
+list-display-font: Concourse 2 Tab
+
+list-display-size: 16
+
+heading-center-start: 0
+
+heading-center-finish: 0
 

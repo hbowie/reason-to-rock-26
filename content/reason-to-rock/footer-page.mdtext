@@ -1,0 +1,12 @@
+Title:  footer-page
+
+Seq:    9.3
+
+Level:  4 - Subtopic
+
+Class:  exclude
+
+Body:
+
+{:footer}
+<a href="https://reasontorock.com">Reason to Rock</a> © 2001 - 2026 by <a href="https://hbowie.net">Herb Bowie</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
