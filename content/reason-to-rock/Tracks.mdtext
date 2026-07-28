@@ -4,12 +4,19 @@ Seq:    4
 
 Level:  2 - Section
 
-Class:  section
+Class:  text
 
 Body:
 
 {:sort-table: tracks-table}
 | Year | Artist | Title |
 | ---- | ---- | ---- |
-|  1936 | [[Robert Johnson]] | [[Come On In My Kitchen]] |
+| 1936 | [[Robert Johnson]] | [[Come On In My Kitchen]] |
+| 1957 | [[Chuck Berry]] | [[School Day]] |
+| 1963 | [[Phil Spector]] | [[Christmas (Baby Please Come Home)]] |
+| 1965 | [[Bob Dylan]] | [[Like A Rolling Stone]] |
+| 1966 | [[The Beatles]] | [[Rain]] |
+| 1967 | [[Buffalo Springfield]] | [[For What It's Worth]] |
 | 1968 | [[Jimi Hendrix]] | [[All Along The Watchtower]] |
+| 1968 | [[Cream]] | [[White Room]] |
+
