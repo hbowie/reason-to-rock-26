@@ -1,21 +1,22 @@
-/* --------------------------------------------------
-
-  Global Settings and Media Queries
-
-* -------------------------------------------------- */
-
+/* The following CSS comes from the darkModeAdjustments 
+   method of the DisplayPrefs class within Notenik. */
 :root {
     color-scheme: light dark;
     --background-color: #FFFFFF;
     --text-color: #000000;
-    --link-color: #5D779D;
-    --subtle-link-color: #5D779D;
+    --link-color: Blue;
+    --link-hover-color: Blue;
+    --background-hover-color: #f0f0f0;
+    --link-visited-color: Purple;
+    --link-active-color: Red;
+    --background-active-color: #e0e0e0;
+    --code-color: #d81b60;
+    --preformatted-color: #444;
+    --accent-bg: #f5f7ff;
+    --border: #898EA4;
     --highlight-color: Gainsboro;
-    --red-text-color: #8A4D4C;
-    --nav-color: #985653;
-    --navbg-color: #E0E0E0;
-    --navbg-color-hover: #B0B0B0;
-    --navbg-color-active: #C0C0C0;
+    --bg: #fff;
+    --accent-bg: #f5f7ff;
 }
 a.ext-link::after {
     content: "";
@@ -33,25 +34,29 @@ a.ext-link::after {
     --background-color: #000000;
     --text-color: #F0F0F0;
     --link-color: #93d5ff;
-    --subtle-link-color: #b6e2ff;
+    --link-hover-color: #94d8ff;
+    --background-hover-color: #282828;
+    --link-visited-color: #cab7ff;
+    --link-active-color: #94d8ff;
+    --background-active-color: #363636;
+    --code-color: #f06292;
+    --preformatted-color: #ccc;
+    --accent-bg: #2b2b2b;
     --highlight-color: DimGray;
-    --red-text-color: #C06E6C;
-    --nav-color: #C06E6C;
-    --navbg-color: #202020;
-    --navbg-color-hover: #303030;
-    --navbg-color-active: #404040;
+    --bg: #212121;
+    --accent-bg: #2b2b2b;
   }
     a.ext-link::after {
-      content: "";
-      width: 0.9em;
-      height: 0.9em;
-      margin-left: 0.2em;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' stroke='%23F0F0F0' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
-      display: inline-block;
-  }
+        content: "";
+        width: 0.9em;
+        height: 0.9em;
+        margin-left: 0.2em;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' stroke='%23F0F0F0' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
 }
 a {
     color: var(--link-color);
@@ -85,73 +90,19 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   line-height: 1.45;/* fontCSS insertion starts here */
-font-family: "valkyrie_a", "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 16pt;
-/* fontCSS insertion ends here   */
+  font-family: "heliotrope_3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16pt;
 }
-img { max-width: 100%; border: 4px solid gray; }
+img { max-width: 100%; height: auto; border: 4px solid gray; }
+video { max-width: 100%; }
+audio { margin-left: 2em; }
 img.no-border { max-width: 100%; border: 0; }
+img.max-75 { max-width: 75%; }
 /* body { max-width: 33em; margin: 0 auto; float: none; } */
 p {
     margin-top: 0.2em;
     margin-bottom: 0.7em;
 }
-
-/* --------------------------------------------------
-
-Page Header (Masthead)
-
-* -------------------------------------------------- */
-
-header {
-  display: flex;
-  flex-direction: row;
-  margin-top: 0.1rem;
-  margin-bottom: 0;
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
-}
-
-#header-left {
-  display: flex;
-  flex-direction: column;
-}
-
-#header-logo-and-name {
-  display: flex;
-  flex-direction: row;
-}
-
-#header-right {
-  margin-left: auto;
-}
-
-.header-logo-image {
-  max-width: 100px;
-  margin-right: 24px;
-  border: 0;
-  border-radius: 20px;
-}
-
-#header-title-and-nav {
-  flex-direction: column;
-}
-
-#header-title { 
-  font-family: "heliotrope_3", Helvetica, Arial, sans-serif;
-  font-size: 2.5rem;
-  margin-top: 0;
-}
-
-#header-slogan {
-  // font-family: 'concourse_t4italic', 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-family: "heliotrope_3", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 1.8rem;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
 body > footer {
     margin-top: 4rem;
     text-align: center;
@@ -241,10 +192,6 @@ table {
 }
 th, td {
   padding: 6px;
-}
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 /* --------------------------------------------------
@@ -429,6 +376,11 @@ footer.nnk-footer {
 footer.nnk-footer p {
     padding-top: 0.5em;
 }
+footer.nnk-footer a:link {
+    color: var(--text-color);
+    text-decoration: none;
+    border-bottom: none;
+}
 
 .float-left {
     float: left;
@@ -528,16 +480,16 @@ section h3:first-child {
 
 /* Make the header bg full width, but the content inline with body */
 body > header {
-  // background-color: var(--accent-bg);
-  // border-bottom: 1px solid var(--border);
-  // text-align: center;
-  // padding: 0 0.5rem 2rem 0.5rem;
-  // grid-column: 1 / -1;
+  background-color: var(--accent-bg);
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+  padding: 0 0.5rem 2rem 0.5rem;
+  grid-column: 1 / -1;
 }
 
-/* body > header > *:only-child {
+body > header > *:only-child {
   margin-block-start: 2rem;
-} */
+}
 
 body > header h1 {
   max-width: 1200px;
@@ -683,7 +635,7 @@ div.top-divider-hr + div.top-divider-links {
 }
 /* Generated CSS for headings follows. */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "heliotrope_3", Helvetica, Arial, sans-serif;
+    font-family: "concourse_4", Helvetica, Arial, sans-serif;
     font-weight: 400;
     margin-top: 0.7em;
     margin-bottom: 0.2em;
@@ -714,9 +666,12 @@ h6 {
     font-size: 1.0em;
 }
 
+img { max-width: 100%; border: 4px solid gray; }
+body { max-width: 33em; margin: 0 auto; float: none; }
+
 /* --------------------------------------------------
 
-  Fonts
+  Font File Inclusion
 
 * -------------------------------------------------- */
 
@@ -757,37 +712,37 @@ src: url('../fonts/heliotrope_3_bold_italic.woff2') format('woff2');
 }
 
 @font-face {
-font-family: valkyrie_a;
+font-family: concourse_4;
 font-style: normal;
 font-weight: normal;
 font-stretch: normal;
 font-display: auto;
-src: url('../fonts/valkyrie_a_regular.woff2') format('woff2');
+src: url('../fonts/concourse_4_regular.woff2') format('woff2');
 }
 
 @font-face {
-font-family: valkyrie_a;
+font-family: concourse_4;
 font-style: italic;
 font-weight: normal;
 font-stretch: normal;
 font-display: auto;
-src: url('../fonts/valkyrie_a_italic.woff2') format('woff2');
+src: url('../fonts/concourse_4_italic.woff2') format('woff2');
 }
 
 @font-face {
-font-family: valkyrie_a;
+font-family: concourse_4;
 font-style: normal;
 font-weight: bold;
 font-stretch: normal;
 font-display: auto;
-src: url('../fonts/valkyrie_a_bold.woff2') format('woff2');
+src: url('../fonts/concourse_4_bold.woff2') format('woff2');
 }
 
 @font-face {
-font-family: valkyrie_a;
+font-family: concourse_4;
 font-style: italic;
 font-weight: bold;
 font-stretch: normal;
 font-display: auto;
-src: url('../fonts/valkyrie_a_bold_italic.woff2') format('woff2');
+src: url('../fonts/concourse_4_bold_italic.woff2') format('woff2');
 }

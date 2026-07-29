@@ -12,7 +12,7 @@ Sort Blank Dates Last: true
 
 Other Fields Allowed: false
 
-Last Index Selected: 34
+Last Index Selected: 43
 
 Mirror Auto Index: false
 
@@ -42,7 +42,7 @@ Ext Links Open in New Windows: true
 
 Scrolling Sync: false
 
-Web Book Folder: /Users/hbowie/Sites/reasontorock/web/refresh-26
+Web Book Folder: /Users/hbowie/Sites/reasontorock/web/refresh
 
 Web Book EPUB: false
 
@@ -54,7 +54,7 @@ Hash Tags: notenik-field
 
 Window Numbers: 142.0;0.0;1369.0;1410.0;496.0;
 
-Column Widths: x: 12, 20, 50; title: 200, 445, 1500; author: 100, 200, 1000; statusdigit: 20, 30, 50; klass: 60, 80, 150; date: 80, 120, 500; dateadded: 100, 180, 250; mk: 24, 36, 48; datemod: 100, 180, 250; rank: 50, 80, 250; tags: 50, 100, 1200; seq: 30, 93, 250; 
+Column Widths: klass: 60, 80, 150; datemod: 100, 180, 250; statusdigit: 20, 30, 50; rank: 50, 80, 250; title: 200, 445, 1500; seq: 30, 93, 250; author: 100, 200, 1000; x: 12, 20, 50; tags: 50, 100, 1200; dateadded: 100, 180, 250; mk: 24, 36, 48; date: 80, 120, 500; 
 
 author Note ID: collectionauthor
 

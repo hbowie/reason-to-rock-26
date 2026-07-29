@@ -16,3 +16,6 @@ temp_display.html
 /import/pages.xls
 /import/technology.xls
 /import/works
+*.jpg
+*.jpeg
+/web/audio
