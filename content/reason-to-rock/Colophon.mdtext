@@ -1,0 +1,31 @@
+Title:  Colophon
+
+Seq:    5.2
+
+Level:  3 - Topic
+
+Class:  text
+
+Body:
+
+Following is a list of the primary tools used to build and maintain this site.
+
+You might notice a couple of things that are *not* on this list — no AI tools, and no CSS frameworks. 
+
+**[Made on a Mac](https://www.apple.com/mac/)** — All of the work on this site has been done on Macintosh computers made by Apple.
+
+**[HTML and CSS](https://www.w3.org)** — While I considered using a Content Management System such as TextPattern or Drupal, I ultimately preferred to maintain the site in static HTML and CSS, to optimize load times, to maximize the site’s portability and to allow myself the broadest options in overall design of the site.
+
+**[Markdown](https://daringfireball.net/projects/markdown/)** — All of the content is written in Markdown, before being converted to HTML for presentation on the web.
+
+**[Notenik](https://notenik.app)** — This is the app I use to edit the content, including the metadata, and to generate the HTML for the website. 
+
+**[BBEdit](https://www.barebones.com/products/bbedit/)** and **[Nova](https://nova.app)** — These are the primary text editors I use. 
+
+**[Typora](https://typora.io)** — I used this app specifically to convert content from Textile to Markdown. 
+
+**[GraphicConverter](https://www.lemkesoft.de/en/products/graphicconverter/)** — Used for converting and enhancing images on the site. 
+
+**[Apple Music](https://music.apple.com/us/new)** — I provide links to this music streaming service for the tracks I'm discussing, because it's the one I personally use. But feel free to listen on YouTube or Spotify or some other service.
+
+**[Hosting.com](https://hosting.com)** — This is the web hosting service I'm currently using. 
