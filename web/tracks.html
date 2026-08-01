@@ -25,161 +25,7 @@
 
 <main>
 <p><a href="reason-to-rock-rock-music-as-art-form.html" class="nav-link">Up</a>&#160;&#8593;</p><h2 id="tracks" style="clear:both;">4 Tracks</h2>
-<script>
-function sortTable(tableID, n) {
-  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-  var firstElement = "";
-  var nextElement = "";
-  var firstLowered = "";
-  var nextLowered = "";
-  var firstNumber = 0;
-  var nextNumber = 0;
-  var firstValue = 0;
-  var nextValue = 0;
-  table = document.getElementById(tableID);
-  switching = true;
-  // Set the sorting direction to ascending:
-  dir = "asc";
-  /* Make a loop that will continue until
-  no switching has been done: */
-  while (switching) {
-    // Start by saying: no switching is done:
-    switching = false;
-    rows = table.rows;
-    /* Loop through all table rows (except the
-    first, which contains table headers): */
-    for (i = 1; i < (rows.length - 1); i++) {
-      // Start by saying there should be no switching:
-      shouldSwitch = false;
-      /* Get the two elements you want to compare,
-      one from current row and one from the next: */
-      firstElement = rows[i].getElementsByTagName("TD")[n];
-      nextElement = rows[i + 1].getElementsByTagName("TD")[n];
-      firstLowered = firstElement.innerText.trim().toLowerCase();
-      nextLowered = nextElement.innerText.trim().toLowerCase();
-      firstNumber = Number(firstLowered);
-      nextNumber = Number(nextLowered);
-      if (isNaN(firstLowered) || isNaN(nextLowered)) {
-        x = firstLowered;
-        y = nextLowered;
-      } else {
-        x = firstNumber;
-        y = nextNumber;
-      }
-      
-      /* Check if the two rows should switch place,
-      based on the direction, asc or desc: */
-      if (dir == "asc") {
-        if (x > y) {
-          // If so, mark as a switch and break the loop:
-          shouldSwitch = true;
-          break;
-        }
-      } else if (dir == "desc") {
-        if (x < y) {
-          // If so, mark as a switch and break the loop:
-          shouldSwitch = true;
-          break;
-        }
-      }
-    }
-    if (shouldSwitch) {
-      /* If a switch has been marked, make the switch
-      and mark that a switch has been done: */
-      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-      switching = true;
-      // Each time a switch is done, increase this count by 1:
-      switchcount ++;
-    } else {
-      /* If no switching has been done AND the direction is "asc",
-      set the direction to "desc" and run the while loop again. */
-      if (switchcount == 0 && dir == "asc") {
-        dir = "desc";
-        switching = true;
-      }
-    }
-  }
-}
-
-
-</script>
-
-
-<table id="tracks-table">
-<tr>
-<th onclick="sortTable('tracks-table',0)">
- Year </th>
-<th onclick="sortTable('tracks-table',1)">
- Artist </th>
-<th onclick="sortTable('tracks-table',2)">
- Title </th>
- </tr>
-<tr>
-<td>
- 1936 </td>
-<td>
- <a href="robert-johnson.html" class="wiki-link">Robert Johnson</a> </td>
-<td>
- <a href="come-on-in-my-kitchen.html" class="wiki-link">Come On In My Kitchen</a> </td>
-</tr>
-<tr>
-<td>
- 1957 </td>
-<td>
- <a href="chuck-berry.html" class="wiki-link">Chuck Berry</a> </td>
-<td>
- <a href="school-day.html" class="wiki-link">School Day</a> </td>
-</tr>
-<tr>
-<td>
- 1963 </td>
-<td>
- <a href="phil-spector.html" class="wiki-link">Phil Spector</a> </td>
-<td>
- <a href="christmas-baby-please-come-home.html" class="wiki-link">Christmas (Baby Please Come Home)</a> </td>
-</tr>
-<tr>
-<td>
- 1965 </td>
-<td>
- <a href="bob-dylan.html" class="wiki-link">Bob Dylan</a> </td>
-<td>
- <a href="like-a-rolling-stone.html" class="wiki-link">Like A Rolling Stone</a> </td>
-</tr>
-<tr>
-<td>
- 1966 </td>
-<td>
- <a href="the-beatles.html" class="wiki-link">The Beatles</a> </td>
-<td>
- <a href="rain.html" class="wiki-link">Rain</a> </td>
-</tr>
-<tr>
-<td>
- 1967 </td>
-<td>
- <a href="buffalo-springfield.html" class="wiki-link">Buffalo Springfield</a> </td>
-<td>
- <a href="for-what-its-worth.html" class="wiki-link">For What It&#8217;s Worth</a> </td>
-</tr>
-<tr>
-<td>
- 1968 </td>
-<td>
- <a href="jimi-hendrix.html" class="wiki-link">Jimi Hendrix</a> </td>
-<td>
- <a href="all-along-the-watchtower.html" class="wiki-link">All Along The Watchtower</a> </td>
-</tr>
-<tr>
-<td>
- 1968 </td>
-<td>
- <a href="cream.html" class="wiki-link">Cream</a> </td>
-<td>
- <a href="white-room.html" class="wiki-link">White Room</a> </td>
-</tr>
-</table>
-
+<p>These are the individual tracks that I offer as examples reflecting the various <a href="elements.html" class="wiki-link">Elements</a> of rock that I have discussed. </p>
 
 </main>
 
@@ -187,30 +33,38 @@ function sortTable(tableID, n) {
 <h4>Contents</h4>
 <ul class="notenik-toc">
 <li>
-4.1 <a href="come-on-in-my-kitchen.html" class="nav-link">Come On In My Kitchen</a></li>
+4.1 <a href="table-of-artists-and-tracks.html" class="nav-link">Table of Artists and Tracks</a></li>
 <li>
-4.2 <a href="school-day.html" class="nav-link">School Day</a></li>
+4.2 <a href="come-on-in-my-kitchen.html" class="nav-link">Come On In My Kitchen</a></li>
 <li>
-4.3 <a href="christmas-baby-please-come-home.html" class="nav-link">Christmas (Baby Please Come Home)</a></li>
+4.3 <a href="school-day.html" class="nav-link">School Day</a></li>
 <li>
-4.4 <a href="like-a-rolling-stone.html" class="nav-link">Like A Rolling Stone</a></li>
+4.4 <a href="christmas-baby-please-come-home.html" class="nav-link">Christmas (Baby Please Come Home)</a></li>
 <li>
-4.5 <a href="rain.html" class="nav-link">Rain</a></li>
+4.5 <a href="like-a-rolling-stone.html" class="nav-link">Like A Rolling Stone</a></li>
 <li>
-4.6 <a href="for-what-its-worth.html" class="nav-link">For What It's Worth</a></li>
+4.6 <a href="rain.html" class="nav-link">Rain</a></li>
 <li>
-4.7 <a href="all-along-the-watchtower.html" class="nav-link">All Along The Watchtower</a></li>
+4.7 <a href="for-what-its-worth.html" class="nav-link">For What It's Worth</a></li>
 <li>
-4.8 <a href="white-room.html" class="nav-link">White Room</a></li>
+4.8 <a href="all-along-the-watchtower.html" class="nav-link">All Along The Watchtower</a></li>
 <li>
-4.9 <a href="sympathy-for-the-devil.html" class="nav-link">Sympathy For The Devil</a></li>
+4.9 <a href="white-room.html" class="nav-link">White Room</a></li>
+<li>
+4.10 <a href="sympathy-for-the-devil.html" class="nav-link">Sympathy For The Devil</a></li>
+<li>
+4.11 <a href="you-can-all-join-in.html" class="nav-link">You Can All Join In</a></li>
+<li>
+4.12 <a href="we-can-be-together.html" class="nav-link">We Can Be Together</a></li>
+<li>
+4.13 <a href="king-harvest-has-surely-come.html" class="nav-link">King Harvest (Has Surely Come)</a></li>
 </ul>
 
 <hr />
 
 <div>
 
-<p class="float-left">Next: 4.1 <a href="come-on-in-my-kitchen.html" class="nav-link">Come On In My Kitchen</a></p>
+<p class="float-left">Next: 4.1 <a href="table-of-artists-and-tracks.html" class="nav-link">Table of Artists and Tracks</a></p>
 
 <p class="float-right">Skip to: <a href="closing.html" class="nav-link">Closing</a></p></div>
 

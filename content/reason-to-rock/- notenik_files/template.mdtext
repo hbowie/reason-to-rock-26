@@ -16,6 +16,14 @@ Image Name: <imagename>
 
 Image Class: <combo>
 
+Image Alt: 
+
+Image Caption: 
+
+Image Credit: 
+
+Image Credit Link: <link: x|s|s|x|x>
+
 Link: <link: x|s|s|x|x>
 
 Attribution: <attribution>
@@ -46,7 +54,7 @@ Publisher City:
 
 Songwriters: <author>
 
-Recording Artist: <author>
+Recording Artist: <notelink>
 
 Producer: <author>
 
