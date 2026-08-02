@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Five-Star Albums</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="css/styles.css" type="text/css" /></head>
+<body>
+
+<header class="nnk-header">
+<p><a href="reason-to-rock-rock-music-as-art-form.html" class="wiki-link">Reason to Rock: Rock Music as Art Form</a> </p>
+
+</header>
+
+<nav class="nnk-nav">
+<ul>
+<li>
+<a href="complete-table-of-contents.html" class="wiki-link">Contents</a> </li>
+<li>
+<a href="search-page.html" class="wiki-link">Search</a> </li>
+</ul>
+
+
+</nav>
+
+<main>
+<p>5 <a href="closing.html" class="nav-link">Closing</a>&#160;&#8593;</p><h3 id="five-staralbums" style="clear:both;">5.4 Five-Star Albums</h3>
+<p>This is list of my most highly recommended rock albums. Click on a column heading to sort by that column. </p><script>
+function sortTable(tableID, n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  var firstElement = "";
+  var nextElement = "";
+  var firstLowered = "";
+  var nextLowered = "";
+  var firstNumber = 0;
+  var nextNumber = 0;
+  var firstValue = 0;
+  var nextValue = 0;
+  table = document.getElementById(tableID);
+  switching = true;
+  // Set the sorting direction to ascending:
+  dir = "asc";
+  /* Make a loop that will continue until
+  no switching has been done: */
+  while (switching) {
+    // Start by saying: no switching is done:
+    switching = false;
+    rows = table.rows;
+    /* Loop through all table rows (except the
+    first, which contains table headers): */
+    for (i = 1; i < (rows.length - 1); i++) {
+      // Start by saying there should be no switching:
+      shouldSwitch = false;
+      /* Get the two elements you want to compare,
+      one from current row and one from the next: */
+      firstElement = rows[i].getElementsByTagName("TD")[n];
+      nextElement = rows[i + 1].getElementsByTagName("TD")[n];
+      firstLowered = firstElement.innerText.trim().toLowerCase();
+      nextLowered = nextElement.innerText.trim().toLowerCase();
+      if (nextLowered.startsWith("the ")) {
+        nextLowered = nextLowered.slice(4);
+      }
+      if (firstLowered.startsWith("the ")) {
+        firstLowered = firstLowered.slice(4)
+      }
+      firstNumber = Number(firstLowered);
+      nextNumber = Number(nextLowered);
+      if (isNaN(firstLowered) || isNaN(nextLowered)) {
+        x = firstLowered;
+        y = nextLowered;
+      } else {
+        x = firstNumber;
+        y = nextNumber;
+      }
+      
+      /* Check if the two rows should switch place,
+      based on the direction, asc or desc: */
+      if (dir == "asc") {
+        if (x > y) {
+          // If so, mark as a switch and break the loop:
+          shouldSwitch = true;
+          break;
+        }
+      } else if (dir == "desc") {
+        if (x < y) {
+          // If so, mark as a switch and break the loop:
+          shouldSwitch = true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      /* If a switch has been marked, make the switch
+      and mark that a switch has been done: */
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      // Each time a switch is done, increase this count by 1:
+      switchcount ++;
+    } else {
+      /* If no switching has been done AND the direction is "asc",
+      set the direction to "desc" and run the while loop again. */
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+
+
+</script>
+
+
+<table id="albums-table">
+<tr>
+<th onclick="sortTable('albums-table',0)">
+ Artist                  </th>
+<th onclick="sortTable('albums-table',1)">
+ Album Title                                          </th>
+<th onclick="sortTable('albums-table',2)">
+ Pub Date </th>
+<th onclick="sortTable('albums-table',3)">
+ Album Type  </th>
+ </tr>
+<tr>
+<td>
+ The Band                </td>
+<td>
+ To Kingdom Come                                      </td>
+<td>
+ 1989     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ The Band                </td>
+<td>
+ Music from Big Pink                                  </td>
+<td>
+ 1968     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ The Band                </td>
+<td>
+ The Band                                             </td>
+<td>
+ 1969     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ The Beach Boys          </td>
+<td>
+ Good Vibrations                                      </td>
+<td>
+ 1993     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ The Beach Boys          </td>
+<td>
+ Greatest Hits-Vol. 1                                 </td>
+<td>
+ 1999     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ The Beach Boys          </td>
+<td>
+ Pet Sounds                                           </td>
+<td>
+ 1966     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ The Beach Boys          </td>
+<td>
+ Sunflower/Surf&#8217;s Up                                  </td>
+<td>
+ 1970     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ The Beatles             </td>
+<td>
+ Past Masters Vol. 1                                  </td>
+<td>
+ 1988     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ The Beatles             </td>
+<td>
+ Past Masters Vol. 2                                  </td>
+<td>
+ 1988     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ The Beatles             </td>
+<td>
+ 1                                                    </td>
+<td>
+ 2000     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ The Beatles             </td>
+<td>
+ Rubber Soul                                          </td>
+<td>
+ 1965     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ The Beatles             </td>
+<td>
+ Revolver                                             </td>
+<td>
+ 1966     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ The Beatles             </td>
+<td>
+ Sgt. Peppers Lonely Hearts Club Band                 </td>
+<td>
+ 1967     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ The Beatles             </td>
+<td>
+ Abbey Road                                           </td>
+<td>
+ 1969     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Jeff Beck               </td>
+<td>
+ The Best of Jeff Beck                                </td>
+<td>
+ 2007     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ Chuck Berry             </td>
+<td>
+ The Definitive Collection                            </td>
+<td>
+ 2006     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ Jackson Browne          </td>
+<td>
+ Late for the Sky                                     </td>
+<td>
+ 1974     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Buffalo Springfield     </td>
+<td>
+ Retrospective                                        </td>
+<td>
+ 1969     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ Buffalo Springfield     </td>
+<td>
+ Buffalo Springfield                                  </td>
+<td>
+ 1967     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Buffalo Springfield     </td>
+<td>
+ Again                                                </td>
+<td>
+ 1967     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Buffalo Springfield     </td>
+<td>
+ Last Time Around                                     </td>
+<td>
+ 1968     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Cream                   </td>
+<td>
+ Those Were The Days                                  </td>
+<td>
+ 1997     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ Cream                   </td>
+<td>
+ Cream - Gold                                         </td>
+<td>
+ 2005     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ Cream                   </td>
+<td>
+ Disraeli Gears                                       </td>
+<td>
+ 1967     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Miles Davis             </td>
+<td>
+ Kind of Blue                                         </td>
+<td>
+ 1958     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Derek &amp; the Dominos </td>
+<td>
+ Layla                                                </td>
+<td>
+ 1970     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Bob Dylan               </td>
+<td>
+ Highway 61                                           </td>
+<td>
+ 1965     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Bob Dylan               </td>
+<td>
+ Blonde on Blonde                                     </td>
+<td>
+ 1966     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Grateful Dead           </td>
+<td>
+ Live/Dead                                            </td>
+<td>
+ 1969     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Grateful Dead           </td>
+<td>
+ Workingman&#8217;s Dead                                    </td>
+<td>
+ 1970     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Grateful Dead           </td>
+<td>
+ American Beauty                                      </td>
+<td>
+ 1970     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Grateful Dead           </td>
+<td>
+ Cornell 5/8/77                                       </td>
+<td>
+ 1977     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Jimi Hendrix            </td>
+<td>
+ Experience Hendrix: The Best Of Jimi Hendrix         </td>
+<td>
+ 1998     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ Jimi Hendrix            </td>
+<td>
+ Are You Experienced?                                 </td>
+<td>
+ 1967     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Jimi Hendrix            </td>
+<td>
+ Axis Bold As Love                                    </td>
+<td>
+ 1968     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Jimi Hendrix            </td>
+<td>
+ Electric Ladyland                                    </td>
+<td>
+ 1968     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ The Jefferson Airplane  </td>
+<td>
+ The Worst of Jefferson Airplane                      </td>
+<td>
+ 1970     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ The Jefferson Airplane  </td>
+<td>
+ The Essential Jefferson Airplane                     </td>
+<td>
+ 2005     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ The Jefferson Airplane  </td>
+<td>
+ Surrealistic Pillow                                  </td>
+<td>
+ 1967     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ The Jefferson Airplane  </td>
+<td>
+ Volunteers                                           </td>
+<td>
+ 1969     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Robert Johnson          </td>
+<td>
+ Robert Johnson: The Complete Recordings              </td>
+<td>
+ 1990     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ The Kinks               </td>
+<td>
+ Face to Face                                         </td>
+<td>
+ 1966     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ The Kinks               </td>
+<td>
+ Arthur or the Decline and Fall of the British Empire </td>
+<td>
+ 1969     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ The Kinks               </td>
+<td>
+ Muswell Hillbillies                                  </td>
+<td>
+ 1971     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ The Kinks               </td>
+<td>
+ Everybody&#8217;s in Show Biz                              </td>
+<td>
+ 1972     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Joni Mitchell           </td>
+<td>
+ Hits                                                 </td>
+<td>
+ 1996     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ Joni Mitchell           </td>
+<td>
+ Ladies of the Canyon                                 </td>
+<td>
+ 1970     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Joni Mitchell           </td>
+<td>
+ Blue                                                 </td>
+<td>
+ 1971     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Joni Mitchell           </td>
+<td>
+ Court and Spark                                      </td>
+<td>
+ 1974     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ The Rolling Stones      </td>
+<td>
+ Big Hits: High Tides and Green Grass                 </td>
+<td>
+ 1966     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ The Rolling Stones      </td>
+<td>
+ Hot Rocks, 1964 - 1971                               </td>
+<td>
+ 1972     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ The Rolling Stones      </td>
+<td>
+ Singles Collection: The London Years                 </td>
+<td>
+ 1989     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ The Rolling Stones      </td>
+<td>
+ Beggar&#8217;s Banquet                                     </td>
+<td>
+ 1968     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ The Rolling Stones      </td>
+<td>
+ Let It Bleed                                         </td>
+<td>
+ 1969     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Bob Seger               </td>
+<td>
+ Greatest Hits                                        </td>
+<td>
+ 1994     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ Bob Seger               </td>
+<td>
+ Night Moves                                          </td>
+<td>
+ 1976     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Bob Seger               </td>
+<td>
+ Stranger in Town                                     </td>
+<td>
+ 1978     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Phil Spector            </td>
+<td>
+ A Christmas Gift                                     </td>
+<td>
+ 1963     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Bruce Springsteen       </td>
+<td>
+ The Wild, the Innocent &amp; the E Street Shuffle    </td>
+<td>
+ 1973     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Bruce Springsteen       </td>
+<td>
+ Born to Run                                          </td>
+<td>
+ 1975     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Bruce Springsteen       </td>
+<td>
+ Darkness on the Edge of Town                         </td>
+<td>
+ 1978     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Traffic                 </td>
+<td>
+ Smiling Phases                                       </td>
+<td>
+ 1991     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ Traffic                 </td>
+<td>
+ Feelin&#8217; Alright: The Very Best of Traffic            </td>
+<td>
+ 2000     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ Traffic                 </td>
+<td>
+ Traffic                                              </td>
+<td>
+ 1968     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ The Velvet Underground  </td>
+<td>
+ Peel Slowly And See                                  </td>
+<td>
+ 1995     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ The Velvet Underground  </td>
+<td>
+ Velvet Underground                                   </td>
+<td>
+ 1969     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ The Velvet Underground  </td>
+<td>
+ Loaded                                               </td>
+<td>
+ 1970     </td>
+<td>
+ Original    </td>
+ </tr>
+<tr>
+<td>
+ Jesse Winchester        </td>
+<td>
+ Jesse Winchester Anthology                           </td>
+<td>
+ 2000     </td>
+<td>
+ Compilation </td>
+ </tr>
+<tr>
+<td>
+ Jesse Winchester        </td>
+<td>
+ Jesse Winchester                                     </td>
+<td>
+ 1970     </td>
+<td>
+ Original    </td>
+</tr>
+</table>
+
+
+</main>
+
+<hr />
+<div>
+
+<p>Next: 5.5 <a href="feedback.html" class="nav-link">Feedback</a></p></div>
+
+
+<footer class="nnk-footer">
+<p><a href="https://reasontorock.com">Reason to Rock</a> © 2001 - 2026 by <a href="https://hbowie.net">Herb Bowie</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> </p>
+
+</footer>
+</body>
+</html>

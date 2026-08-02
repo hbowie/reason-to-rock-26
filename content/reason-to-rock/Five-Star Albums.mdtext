@@ -1,0 +1,84 @@
+Title:  Five-Star Albums
+
+Seq:    5.4
+
+Level:  3 - Topic
+
+Class:  text
+
+Body:
+
+This is list of my most highly recommended rock albums. Click on a column heading to sort by that column. 
+
+{:sort-table: albums-table}
+| Artist                  | Album Title                                          | Pub Date | Album Type  | 
+| ----------------------- | ---------------------------------------------------- | -------- | ----------- | 
+| The Band                | To Kingdom Come                                      | 1989     | Compilation | 
+| The Band                | Music from Big Pink                                  | 1968     | Original    | 
+| The Band                | The Band                                             | 1969     | Original    | 
+| The Beach Boys          | Good Vibrations                                      | 1993     | Compilation | 
+| The Beach Boys          | Greatest Hits-Vol. 1                                 | 1999     | Compilation | 
+| The Beach Boys          | Pet Sounds                                           | 1966     | Original    | 
+| The Beach Boys          | Sunflower/Surf's Up                                  | 1970     | Original    | 
+| The Beatles             | Past Masters Vol. 1                                  | 1988     | Compilation | 
+| The Beatles             | Past Masters Vol. 2                                  | 1988     | Compilation | 
+| The Beatles             | 1                                                    | 2000     | Compilation | 
+| The Beatles             | Rubber Soul                                          | 1965     | Original    | 
+| The Beatles             | Revolver                                             | 1966     | Original    | 
+| The Beatles             | Sgt. Peppers Lonely Hearts Club Band                 | 1967     | Original    | 
+| The Beatles             | Abbey Road                                           | 1969     | Original    | 
+| Jeff Beck               | The Best of Jeff Beck                                | 2007     | Compilation | 
+| Chuck Berry             | The Definitive Collection                            | 2006     | Compilation | 
+| Jackson Browne          | Late for the Sky                                     | 1974     | Original    | 
+| Buffalo Springfield     | Retrospective                                        | 1969     | Compilation | 
+| Buffalo Springfield     | Buffalo Springfield                                  | 1967     | Original    | 
+| Buffalo Springfield     | Again                                                | 1967     | Original    | 
+| Buffalo Springfield     | Last Time Around                                     | 1968     | Original    | 
+| Cream                   | Those Were The Days                                  | 1997     | Compilation | 
+| Cream                   | Cream - Gold                                         | 2005     | Compilation | 
+| Cream                   | Disraeli Gears                                       | 1967     | Original    | 
+| Miles Davis             | Kind of Blue                                         | 1958     | Original    | 
+| Derek &amp; the Dominos | Layla                                                | 1970     | Original    | 
+| Bob Dylan               | Highway 61                                           | 1965     | Original    | 
+| Bob Dylan               | Blonde on Blonde                                     | 1966     | Original    | 
+| Grateful Dead           | Live/Dead                                            | 1969     | Original    | 
+| Grateful Dead           | Workingman's Dead                                    | 1970     | Original    | 
+| Grateful Dead           | American Beauty                                      | 1970     | Original    | 
+| Grateful Dead           | Cornell 5/8/77                                       | 1977     | Original    | 
+| Jimi Hendrix            | Experience Hendrix: The Best Of Jimi Hendrix         | 1998     | Compilation | 
+| Jimi Hendrix            | Are You Experienced?                                 | 1967     | Original    | 
+| Jimi Hendrix            | Axis Bold As Love                                    | 1968     | Original    | 
+| Jimi Hendrix            | Electric Ladyland                                    | 1968     | Original    | 
+| The Jefferson Airplane  | The Worst of Jefferson Airplane                      | 1970     | Compilation | 
+| The Jefferson Airplane  | The Essential Jefferson Airplane                     | 2005     | Compilation | 
+| The Jefferson Airplane  | Surrealistic Pillow                                  | 1967     | Original    | 
+| The Jefferson Airplane  | Volunteers                                           | 1969     | Original    | 
+| Robert Johnson          | Robert Johnson: The Complete Recordings              | 1990     | Compilation | 
+| The Kinks               | Face to Face                                         | 1966     | Original    | 
+| The Kinks               | Arthur or the Decline and Fall of the British Empire | 1969     | Original    | 
+| The Kinks               | Muswell Hillbillies                                  | 1971     | Original    | 
+| The Kinks               | Everybody's in Show Biz                              | 1972     | Original    | 
+| Joni Mitchell           | Hits                                                 | 1996     | Compilation | 
+| Joni Mitchell           | Ladies of the Canyon                                 | 1970     | Original    | 
+| Joni Mitchell           | Blue                                                 | 1971     | Original    | 
+| Joni Mitchell           | Court and Spark                                      | 1974     | Original    | 
+| The Rolling Stones      | Big Hits: High Tides and Green Grass                 | 1966     | Compilation | 
+| The Rolling Stones      | Hot Rocks, 1964 - 1971                               | 1972     | Compilation | 
+| The Rolling Stones      | Singles Collection: The London Years                 | 1989     | Compilation | 
+| The Rolling Stones      | Beggar's Banquet                                     | 1968     | Original    | 
+| The Rolling Stones      | Let It Bleed                                         | 1969     | Original    | 
+| Bob Seger               | Greatest Hits                                        | 1994     | Compilation | 
+| Bob Seger               | Night Moves                                          | 1976     | Original    | 
+| Bob Seger               | Stranger in Town                                     | 1978     | Original    | 
+| Phil Spector            | A Christmas Gift                                     | 1963     | Original    | 
+| Bruce Springsteen       | The Wild, the Innocent &amp; the E Street Shuffle    | 1973     | Original    | 
+| Bruce Springsteen       | Born to Run                                          | 1975     | Original    | 
+| Bruce Springsteen       | Darkness on the Edge of Town                         | 1978     | Original    | 
+| Traffic                 | Smiling Phases                                       | 1991     | Compilation | 
+| Traffic                 | Feelin' Alright: The Very Best of Traffic            | 2000     | Compilation | 
+| Traffic                 | Traffic                                              | 1968     | Original    | 
+| The Velvet Underground  | Peel Slowly And See                                  | 1995     | Compilation | 
+| The Velvet Underground  | Velvet Underground                                   | 1969     | Original    | 
+| The Velvet Underground  | Loaded                                               | 1970     | Original    | 
+| Jesse Winchester        | Jesse Winchester Anthology                           | 2000     | Compilation | 
+| Jesse Winchester        | Jesse Winchester                                     | 1970     | Original    |

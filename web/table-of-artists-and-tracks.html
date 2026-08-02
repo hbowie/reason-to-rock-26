@@ -57,6 +57,12 @@ function sortTable(tableID, n) {
       nextElement = rows[i + 1].getElementsByTagName("TD")[n];
       firstLowered = firstElement.innerText.trim().toLowerCase();
       nextLowered = nextElement.innerText.trim().toLowerCase();
+      if (nextLowered.startsWith("the ")) {
+        nextLowered = nextLowered.slice(4);
+      }
+      if (firstLowered.startsWith("the ")) {
+        firstLowered = firstLowered.slice(4)
+      }
       firstNumber = Number(firstLowered);
       nextNumber = Number(nextLowered);
       if (isNaN(firstLowered) || isNaN(nextLowered)) {
@@ -185,6 +191,30 @@ function sortTable(tableID, n) {
  <a href="traffic.html" class="wiki-link">Traffic</a> </td>
 <td>
  <a href="you-can-all-join-in.html" class="wiki-link">You Can All Join In</a> </td>
+</tr>
+<tr>
+<td>
+ 1969 </td>
+<td>
+ <a href="jefferson-airplane.html" class="wiki-link">Jefferson Airplane</a> </td>
+<td>
+ <a href="we-can-be-together.html" class="wiki-link">We Can Be Together</a> </td>
+</tr>
+<tr>
+<td>
+ 1969 </td>
+<td>
+ <a href="the-band.html" class="wiki-link">The Band</a> </td>
+<td>
+ <a href="king-harvest-has-surely-come.html" class="wiki-link">King Harvest (Has Surely Come)</a> </td>
+</tr>
+<tr>
+<td>
+ 1970 </td>
+<td>
+ <a href="the-beach-boys.html" class="wiki-link">The Beach Boys</a> </td>
+<td>
+ <a href="its-about-time.html" class="wiki-link">It&#8217;s About Time</a> </td>
 </tr>
 </table>
 
