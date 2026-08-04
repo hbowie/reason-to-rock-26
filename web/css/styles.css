@@ -89,11 +89,15 @@ body {
   max-width: 50em; 
   background-color: var(--background-color);
   color: var(--text-color);
-  line-height: 1.45;/* fontCSS insertion starts here */
+  line-height: 1.45;
   font-family: "heliotrope_3", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16pt;
 }
 img { max-width: 100%; height: auto; border: 4px solid gray; }
+img.no-border { max-width: 100%; border: 0; }
+img.max-75 { max-width: 75%; }
+img.max-67 { max-width: 67%; }
+img.max-50 { max-width: 50%; }
 video { max-width: 100%; }
 audio { margin-left: 2em; }
 img.no-border { max-width: 100%; border: 0; }
