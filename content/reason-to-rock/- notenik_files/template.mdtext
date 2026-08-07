@@ -12,6 +12,8 @@ Level: <level: 1 - Book Title; 2 - Section; 3 - Topic; 4 - Subtopic; 5 - Detail;
 
 Class: <class: artist, author, back, biblio, cover, def, exclude, front, intro, post, quote, section, text, text-section, title-page, topic, topic-with-image, track, work >
 
+Redirect: 
+
 Image Name: <imagename>
 
 Image Class: <combo>

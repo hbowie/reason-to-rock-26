@@ -6,6 +6,8 @@ Level:  3 - Topic
 
 Class:  track
 
+Redirect: tracks/we_can_be_together.html
+
 Image Name: single
 
 Songwriters: Paul Kantner
@@ -19,6 +21,7 @@ Apple Music Link: https://music.apple.com/us/album/we-can-be-together/271664884?
 Apple Music Player:
 
 <iframe height="175" width="100%" title="Media player" src="https://embed.music.apple.com/us/album/we-can-be-together/271664884?i=271664887&amp;itscg=30200&amp;itsct=music_box_player&amp;ls=1&amp;app=music&amp;mttnsubad=271664887&amp;at=1l3vwJP&amp;theme=auto" id="embedPlayer" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write" style="border: 0px; border-radius: 12px; width: 100%; height: 175px; max-width: 660px;"></iframe>
+
 
 Body:
 

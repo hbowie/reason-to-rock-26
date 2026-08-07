@@ -12,7 +12,7 @@ Sort Blank Dates Last: true
 
 Other Fields Allowed: false
 
-Last Index Selected: 0
+Last Index Selected: 44
 
 Mirror Auto Index: false
 
@@ -52,9 +52,9 @@ Note File Format: nnk
 
 Hash Tags: notenik-field
 
-Window Numbers: 191.0;21.0;1280.0;1294.0;496.0;
+Window Numbers: 91.0;0.0;1336.0;1410.0;459.5;
 
-Column Widths: seq: 30, 93, 250; author: 100, 200, 1000; title: 200, 465, 1500; date: 80, 120, 500; datemod: 100, 180, 250; mk: 24, 36, 48; tags: 50, 100, 1200; rank: 50, 80, 250; x: 12, 20, 50; dateadded: 100, 180, 1500; klass: 60, 80, 150; statusdigit: 20, 30, 50; 
+Column Widths: tags: 50, 100, 1200; mk: 24, 36, 48; rank: 50, 80, 250; datemod: 100, 180, 250; author: 100, 200, 1000; statusdigit: 20, 30, 50; date: 80, 120, 500; title: 200, 465, 1500; dateadded: 100, 180, 1500; x: 12, 20, 50; klass: 60, 80, 150; seq: 30, 93, 250; 
 
 author Note ID: collectionauthor
 

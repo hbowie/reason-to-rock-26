@@ -1,0 +1,80 @@
+Title:  The 2026 Refresh
+
+Seq:    1.7
+
+Level:  3 - Topic
+
+Class:  text
+
+Body:
+
+Well, here it is twenty-five years after the original publication of *Reason to Rock* and — while I think the content is generally still good — the look of the site, as well as some of the technical underpinnings, are due for a bit of a refresh. 
+
+So, for those who might be interested, here are the major changes to the site made in '26. 
+
+[toc]
+
+## Ditched the Album Reviews
+
+The original site listed recommended albums for each featured artist, with brief descriptions of each, along with star ratings. 
+
+Several things have changed since then:
+
++ Most of us are streaming our music these days, and not necessarily listening to entire albums;
++ Reissues, compilations, remasters and playlists (often algorithmically generated) have presented a moving target of how the tracks are currently packaged, and so a static (and now dated) list of album recommendations no longer seems worthwhile;
++ I never saw much indication that these album recommendations and mini-reviews were particularly popular elements of the site; 
++ Many other sources of album reviews and recommandations are now available (including [All Music](https://www.allmusic.com)), so I'm not sure my little reviews are adding much any longer;
++ Back in '01, the music one could listen to was largely dictated by which albums you owned, and so I thought it would be worthwhile to provide purchasing advice; with streaming, though, it's generally all the music in the world for one price of admission, so purchasing advice is generally moot. 
+
+The only remaining trace of this content is a list of [[Five-Star Albums]] located in the [[Closing]] section. 
+
+## Links to Apple Music instead of Amazon
+
+Back in '01 we were still in the age of the CD, and just about every album available could be found on Amazon, so I provided links to CDs that I recommended. (In theory, these were links that would earn me some money when a reader clicked and purchased; in practice, this revenue stream never amounted to much, and it's dried up altogether in the last decade or so.)
+
+But we're in the streaming age now, and so I provide links to Apple Music instead of Amazon, and for individual tracks, instead of albums. 
+
+(Again, if enough of you were to sign up to Apple Music as a result of my links, I might see some income from this arrangement, but I have received none to date, and I'm not really expecting any in the future.)
+
+Why Apple Music? Well, it's the streaming service I use. But if you'd rather listen to your music on Spotify or YouTube, or acquire it from some other source, then, as Elliott Gould's Philip Marlowe says repeatedly in Altman's film adaptation of Chandler's *The Long Goodbye*: "[It's okay with me.](https://film-cred.com/its-okay-with-me-altmans-revisionist-noir-the-long-goodbye/)" 
+
+## Largely Removed Ancillary Links
+
+Back in '01, there were many quirky little sites that contained some interesting material that complemented mine, and so I provided links to some of these. 
+
+Most of these sites have now gone away or are paywalled and so now, if I link to anything for additional info, it's Wikipedia. 
+
+## Removed the Recommended Reading
+
+I originally had a chapter called "Recommended Reading," listing both books (with links to Amazon!) and other websites. However, as already pointed out, many of the websites are no longer available, and I haven't seen much evidence that people are seeking to buy any of the books I've recommended. 
+
+There is still, though, a complete [[Bibliography]]. 
+
+## Dark Mode Now Available
+
+For those who, like me, prefer to a dark system appearance, the site will now adapt to your system preference. 
+
+## A Streamlined Delivery
+
+Back in '01 there were no iPhones, no tablets: everything was designed to be viewed on a laptop or desktop, and all screens were in landscape mode. Plus, the Web was still relatively young, and trying to establish itself as something different from other media, and so multicolumn layouts were common. In the case of this site, the primary content flowed down the middle of the page, with a navigation menu on the left, and book and album photos on the right. 
+
+Several things have changed since then. First, we have iPhones and tablets, and many people use these predominantly in portrait mode, unless they're watching a video. But then, also, with platforms like SubStack and Medium, the focus is mostly on the written content, with less need to present material in multiple columns. Email newsletters are also popular, and email content is generally laid out in a single column. And then books are still around, including e-books, and these are generally laid out in a single column.
+
+And so, the *Reason to Rock* site is now laid out in a single column, without any distractions in adjoining columns. Just as if it were a book. (Which, indeed, it is.)
+
+## Generated from Notenik
+
+The original site was built using some complicated scripts and templates that were fed into an app called PSTextMerge, written in Java. 
+
+All of those files can now be processed by Notenik, a successor app written in Swift to run on the Mac, and when I started out on this refresh, I was planning on using a similarly complex set of files to generate the new site. 
+
+Then I realized: *Reason to Rock* is really a book, and Notenik now has the ability to generate a web book *without* all those custom scripts and templates. 
+
+And so that's how the new site is being generated. 
+
+Hope you enjoy reading it.
+
+--- Herb Bowie
+
+Seattle, Washington  
+August 6, 2026

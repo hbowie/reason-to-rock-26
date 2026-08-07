@@ -6,6 +6,8 @@ Level:  3 - Topic
 
 Class:  track
 
+Redirect: tracks/box_of_rain.html
+
 Image Name: american beauty
 
 Image Class: max-67
@@ -23,6 +25,7 @@ Apple Music Link: https://music.apple.com/us/album/box-of-rain/664831661?i=66483
 Apple Music Player:
 
 <iframe height="175" width="100%" title="Media player" src="https://embed.music.apple.com/us/album/box-of-rain/664831661?i=664831837&amp;itscg=30200&amp;itsct=music_box_player&amp;ls=1&amp;app=music&amp;mttnsubad=664831837&amp;at=1l3vwJP&amp;theme=auto" id="embedPlayer" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write" style="border: 0px; border-radius: 12px; width: 100%; height: 175px; max-width: 660px;"></iframe>
+
 
 Body:
 
@@ -132,5 +135,4 @@ This is a great song, but the original studio recording is also a great performa
 
 It's hard to think of another song or songwriter or band that would even attempt to deliver such a delicate, resonant impression as this one, let alone one that could do it so masterfully. 
 
-Even if the group had never played a single live show, this recording would be one for the ages.    
-
+Even if the group had never played a single live show, this recording would be one for the ages.

@@ -6,13 +6,13 @@ Level:  3 - Topic
 
 Class:  artist
 
+Redirect: artists/robert_johnson.html
+
 Image Name: the complete recordings
 
 Image Class: max-75
 
 Link:   https://en.wikipedia.org/wiki/Robert_Johnson
-
-Years Lived: 1911-1938
 
 Body:
 
@@ -56,4 +56,4 @@ For young musicians just learning their craft, these albums of Johnson’s were 
 
 ### Track Analysis
 
-+ "[[Come On In My Kitchen]]"
++ [[Come On In My Kitchen]]

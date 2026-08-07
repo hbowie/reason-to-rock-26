@@ -8,7 +8,9 @@ Seq:    4.8
 
 Level:  3 - Topic
 
-Class:  post
+Class:  track
+
+Redirect: tracks/watchtower.html
 
 Image Name: JWH Album Cover.jpg
 
