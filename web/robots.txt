@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /audio/
+Disallow: /fonts/
+Disallow: /images/
+
+Sitemap: https://reasontorock.com/sitemap.txt
+Sitemap: https://www.reasontorock.com/sitemap.txt

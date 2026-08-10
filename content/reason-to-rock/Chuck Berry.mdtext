@@ -6,13 +6,13 @@ Level:  3 - Topic
 
 Class:  artist
 
+Redirect: artists/chuck_berry.html
+
 Image Name: great 28
 
 Image Class: max-75
 
 Link:   https://en.wikipedia.org/wiki/Chuck_Berry
-
-Years Lived: 1926-2017
 
 Body:
 
@@ -30,6 +30,6 @@ Berry was one of the first, as well, to write about the music that he and others
 
 This combination of great music and words resulted in Chuck Berry easily becoming the rock songwriter who has most frequently had his songs covered by other rockers. Artists as divergent as Buddy Holly, the Beatles, the Rolling Stones, the Grateful Dead and the Beach Boys all recorded Chuck Berry tunes, to name just a few.
 
-### Track Analysis
+#### Track Analysis
 
 + "[[School Day]]"

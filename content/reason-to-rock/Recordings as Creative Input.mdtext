@@ -6,6 +6,8 @@ Level:  3 - Topic
 
 Class:  text
 
+Redirect: elements/records_in.html
+
 Body:
 
 {:include-quotebiblio:The sort of record we need to make}

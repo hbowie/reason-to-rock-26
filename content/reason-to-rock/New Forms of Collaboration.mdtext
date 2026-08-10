@@ -6,6 +6,8 @@ Level:  3 - Topic
 
 Class:  text
 
+Redirect: elements/collaboration.html
+
 Body:
 
 {:include-quotebiblio:Maybe the rhythm section could run the band}

@@ -6,6 +6,8 @@ Level:  3 - Topic
 
 Class:  text
 
+Redirect: intro/epigraph.html
+
 Body:
 
 {:include-quotebiblio:Enemies of Art and Artist}

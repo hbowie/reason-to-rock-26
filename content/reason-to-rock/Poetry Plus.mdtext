@@ -6,6 +6,8 @@ Level:  3 - Topic
 
 Class:  text
 
+Redirect: elements/words.html
+
 Body:
 
 {:include-quotebiblio:Poets Coming out of the Woodwork}

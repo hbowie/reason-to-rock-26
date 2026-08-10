@@ -6,6 +6,8 @@ Level:  3 - Topic
 
 Class:  artist
 
+Redirect: artists/beatles.html
+
 Image Name: john paul george and ringo
 
 Image Class: max-75
@@ -46,6 +48,6 @@ The evolution of The Beatles’ recorded output from 1963 to 1969 not only gave 
 
 It should be noted that British album releases during the Beatles’ career were often different from their American releases in terms of how the tracks were packaged into records. On the British releases, the Beatles’ music was released on a combination of singles, EPs and LPs, with little to no duplication. In contrast, the American releases included no EPs, and tracks released as singles were generally included in albums as well. When the Beatles’ catalog was released on CD, and later on streaming services, the British packaging was used as the model, since this was the truest to the group’s original intentions.
 
-### Track Analysis
+#### Track Analysis
 
 + [[Rain]]

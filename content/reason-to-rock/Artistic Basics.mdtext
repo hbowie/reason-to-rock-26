@@ -6,6 +6,8 @@ Level:  3 - Topic
 
 Class:  text
 
+Redirect: elements/basics.html
+
 Body:
 
 {:include-quotebiblio:The road not taken}

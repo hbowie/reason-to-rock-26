@@ -1,0 +1,9 @@
+<?output "../../web/sitemap.txt"?>
+https://reasontorock.com/index.html
+<?set count = 0?>
+<?nextrec?>
+<?if =$count$= gt 0 ?>
+https://reasontorock.com/=$title&f$=.html
+<?endif?>
+<?set count += 1 ?>
+<?loop?>

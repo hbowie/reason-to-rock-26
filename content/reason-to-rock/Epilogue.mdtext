@@ -6,6 +6,8 @@ Level:  3 - Topic
 
 Class:  text
 
+Redirect: tracks/epilogue.html
+
 Image Name: the last waltz
 
 Image Class: max-67
@@ -14,15 +16,15 @@ Body:
 
 {:include-quotebiblio:They had spoken to the gods}
 
-## Contents
+#### Contents
 
 {:toc}
 
-## Elements of Instability
+#### Elements of Instability
 
 Rock music, as I have described it here, turns out to be a difficult art form to practice over the long haul. Many of its defining elements are inherently unstable. All of the following factors have contributed to the relatively brief half-life of the average rock artist’s productive career, as well as the relatively brief flowering of the rock aesthetic as an artistic movement.
 
-### 1. Difficulty of Sustaining Liberation
+#### 1. Difficulty of Sustaining Liberation
 
 If, as I have suggested here, the basic theme of rock music is liberation, then this presents a problem for the artist: what do you do for an encore? If you have convincingly liberated yourself and your audience, then what do you do next? Since rock music is about a change of state, and not about the condition itself, it is impossible to convincingly repeat. This is in sharp contrast, for example, to a related form like the Blues. You can have the Blues — and play the Blues — forever, as practitioners like B. B. King have shown. As a matter of fact the Blues, almost by definition, is a chronic condition. Still singing about it forty or fifty years later is an affirmation that what you were singing about in your youth was real and true. On the other hand, when you once sang “Hope I die before I get old,” as did The Who, what do you sing when you *are* old? And when you make a career of liberating your audience from Victorian notions of morality, as did The Rolling Stones with songs like “Midnight Rambler,” what do you do when a member of your audience is murdered in front of your stage, as happened at Altamont? Liberation is exciting fare, but it is tough to make a career of it.
 
@@ -30,7 +32,7 @@ The task of sustaining liberation has also been made more difficult by larger fo
 
 One of the unfortunate results of this sort of “progress” is a reduction in scope of the sort of liberation suggested by rock music. Whereas the form once offered hopes of cultural fusion, individual freedom, collaborative community, emotional release, geographic mobility, and political transformation — to name just a few — later songs seem to have limited the elements of liberation to recreational excess in the areas of drug use, sexual congress, and violence. As manager Malcolm McLaren summarized his goals for his band, the Sex Pistols: “Be childish. Be irresponsible. Be everything this society hates.” ([[Flowers in the Dustbin: The Rise of Rock and Roll, 1947-1977|Miller 1999]]) If this is what liberation looks like, then it makes a hell of a case for repression.
 
-### 2. Instability of Rock Groups
+#### 2. Instability of Rock Groups
 
 It has been hard to maintain rock groups as functioning artistic entities. As happened with The Beatles, partners tend to tire of each other, and sometimes outgrow the constraints and compromises necessary to maintain the integrity of a group as an artistic unit. In many cases, artists tended to outgrow the notion of functioning as part of any kind of permanent group. For example, John Lennon commented about the decisions he made when he first started to perform without the rest of The Beatles:
 
@@ -44,7 +46,7 @@ Even when artists did join other groups, these relationships proved to have many
 
 Even for groups who have stayed together over the long haul, there are issues of staleness and artistic compromise that can creep into a band’s work. Groups who have had the most luck at remaining intact have been those in which the roles were clearly defined, especially in terms of singing and songwriting chores. Unfortunately for audiences, such affairs can easily devolve from high states of artistic collaboration to routine relationships of convenience — from rock group to singer/songwriter plus sidemen. Groups such as the Rolling Stones, The Band and The Kinks all experienced this sort of evolution to some degree.
 
-### 3. The Stylization of Rock
+#### 3. The Stylization of Rock
 
 During most of the sixties and into the early seventies, the best rock artists were known for continued experimentation and innovation. So while a group like the Grateful Dead was known for psychedelia, extended improvisational jams, and electric instrumentation, two of their most enduring albums were mostly acoustic, influenced by country and bluegrass, and seemed set in an earlier America (*Workingman’s Dead* and *American Beauty*). And while the Rolling Stones were known for hard rock and blues, many of their early hits sounded more like what would later be called “soft rock,” with “Lady Jane” and “Under My Thumb” being two examples.
 
@@ -52,7 +54,7 @@ In the seventies and following, though, different styles of rock became more dis
 
 So while audience expectations in the sixties and early seventies were for rock artists to continually do something different, in later years audiences simply wanted a repetition of what they had heard before, with only the most minor variations. The former expectations, of course, were more in tune with artistic creation, while the later expectations were more attuned with the production of popular entertainment.
 
-### 4. The Star Syndrome
+#### 4. The Star Syndrome
 
 Our culture and media contain a tremendous bias towards individual personalities as focuses of attention, and away from groups of collaborative individuals. Whether this is a hold-over from the Hollywood studio system, a convenience for our news media, an indication of how highly we value individualism — or some combination of these and other influences — it is apparently inescapable. Even the rock media that sprang up in the late sixties fell prey to this insidious influence. Suddenly John Lennon was the “real” genius of The Beatles. Brian Wilson of the Beach Boys, Neil Young of the Buffalo Springfield, and Robbie Robertson of The Band were all similarly lionized by the media, giving the impression that the other members of their groups were easily replaceable at best, and creatively stifling at worst. Paul McCartney remembers that such thinking even caused him to doubt his own abilities.
 
@@ -60,7 +62,7 @@ Our culture and media contain a tremendous bias towards individual personalities
 
 It speaks to the strength of this star myth that even paul McCartney, a member of the most popular musical group of the 20th century, and half of the most popular songwriting team of his generation, could doubt his own abilities because of it. Unfortunately, few if any of these solo “stars” were ever able to live up to the hype that surrounded them, and their individual achievements never matched those produced when working as parts of groups.
 
-### 5. Lack of Commercial Support for Rock Aesthetics
+#### 5. Lack of Commercial Support for Rock Aesthetics
 
 It is unfortunately true that our laws and commercial institutions make it difficult to practice rock music as a vocation. For example, laws ensure that royalties will be paid to composers, but not to musicians who recorded a particular version of a song. So songwriters are financially rewarded, and supporting members of groups are not — even though, in the case of rock music, the primary artistic unit *is* the recording, and not the song as written down on paper. Also, few groups worried much about fair financial compensation when initially signing management or recording contracts. So issues like ownership of the name of a group are often hard to nail down, in some cases provoking lengthy law suits to establish such rights.
 
@@ -68,7 +70,7 @@ Also, of course, financial rewards are inevitably diluted when you have a group 
 
 {:include-quotebiblio:We didn't even make money when we became rich and famous}
 
-### 6. The Tenacity of the Composer/Interpreter Model
+#### 6. The Tenacity of the Composer/Interpreter Model
 
 In some art forms, the separation of the artistic duties between composer and interpreter strikes us as completely foreign: the idea that we would assign value to a painter who had “reinterpreted” a classic Picasso, for example, is close to meaningless. Yet in other forms, such as the theatre, it is hard to imagine the form working any other way: a play is meant to be performed over and over, without any subsequent participation from the original author, and with each new director and cast providing some new interpretive dimension to the work, if their performance is to be deemed worthy of the term “art.”
 
@@ -88,13 +90,13 @@ We don’t have to look far to see examples of the composer/interpreter model at
 
 While this sort of work provides ongoing support to the artists involved, it does nothing to further the rock aesthetic that I have described here.
 
-### 7. Fame
+#### 7. Fame
 
 As rock musicians became famous, the subject matter of their songs often became more constrained and often more artificial. When first starting out, rock artists had a chance to observe all segments of society under all circumstances. As they became “rock stars,” however, they became less able to observe society around them, as they themselves became more intensely observed by fans and the media. Bob Dylan commented on this problem in a 2004 Newsweek excerpt from his book.
 
 {:include-quotebiblio:Experience, observation and imagination}
 
-### 8. Difficulty Balancing Live and Studio Work
+#### 8. Difficulty Balancing Live and Studio Work
 
 As we have seen, members of a rock group need to:
 
@@ -116,7 +118,7 @@ In some cases, it also left groups with frankly too much idle time on their hand
 
 On the other hand, touring has its own disadvantages. It can be physically and mentally draining. For very popular groups, it can be artistically frustrating: your concerts become cultural rather than aesthetic events, with your fans more interested in seeing you on stage than in actually listening to your music. Since rock music is essentially about recording, even fans who show up for live shows paradoxically want to hear a band’s greatest hits, sounding just the way they do on their albums. So playing live becomes a futile and mechanical attempt to reproduce on stage, night after night, music sounding as close as possible to the recorded sound already available on CD. Credit The Beatles for realizing that this was an artistic dead-end, and for refusing to play along with it.
 
-### 9. Drugs
+#### 9. Drugs
 
 For most rock performers, drugs seemed an avenue towards liberation. Most groups started with socially acceptable drugs like alcohol, nicotine and caffeine. Amphetamines offered an escape from fatigue and rigid schedules, and helped young rock groups play several sets a night, party afterwards, and perhaps travel to another town the next day. Marijuana seemed pretty harmless, and offered liberation from goal-oriented accomplishment, and into a new appreciation for the here and now: what better temptation for an artist? From there, though, it was an easy leap to LSD, heroin and other more dangerous and addictive substances. Too many great rock artists lost their lives due to substance abuse. And many others had years of painful recovery in order to kick their self-destructive habits.
 
@@ -124,7 +126,7 @@ The use of drugs as part of the rock culture also contributed to what Ken Wilber
 
 Unfortunately, use of other drugs, or overuse of the same drugs, or any drug usage that started at a lower state of consciousness, could simply result in a prerational state of consciousness. Since both states were nonrational, they could easily be confused. But while transrational states transcended and included rational states, prerational consciousness was simply delusional or narcissistic. Unfortunately, the culture of the time mostly lacked the ability to discriminate between these two states, so advocacy for the freedom to use drugs often resulted in lower, rather than higher, states of consciousness.
 
-### 10. Too Much Technology
+#### 10. Too Much Technology
 
 While technical enablers were essential for creating the rock aesthetic, further advances in technology, along with a slavish belief that more is better, have actually helped to undermine that same aesthetic. This is how session drummer Roger Hawkins describes advances in studio technology over the years.
 
@@ -140,13 +142,13 @@ And Ringo Starr reflects on the use of electronic drum machines, as well as clic
 
 Unfortunately, where technology once offered a means of extending the artists’ humanity, in recent years it has too often been used as a replacement for it.
 
-### 11. Feedback Loops
+#### 11. Feedback Loops
 
 In music, a feedback loop is created when the sound being output from an amplifier is fed back into the microphones connected to the amplification circuit: the result is escalating amplification, spiraling upwards, distorting the original sound through repeated playback and amplification.
 
 Something similar eventually happened in rock music. As I have pointed out, one of the key characteristics of rock was its ability to use recorded music as input to its creative process. As rock evolved, however, the albums that were output from this process were then used as input later. The result in many cases was a loss in the variety of musical influences. Music being produced today, in which samples from older recordings are used verbatim as parts of newer tracks, are good examples of where this trend has taken us.
 
-### 12. An Art-Adverse Culture
+#### 12. An Art-Adverse Culture
 
 Listen to the experience corporate fool Gordon MacKenzie describes when visiting elementary schools in the US to teach them about sculpting.
 
@@ -180,7 +182,7 @@ But instead Dylan found himself faced with people who expected him, not just to 
 
 This society and culture, of course, this “Air-Conditioned Nightmare,” was the same one that Henry Miller wrote of, the one he fled from in order to do his best work, the one he retreated from as much as possible when he returned to his native soil, taking up residence in the artistic community of Big Sur, where the physical environment was too harshly beautiful to long accommodate any but the most dedicated aesthetes or other pioneering spirits.
 
-### 13. Normal Aesthetic Evolution
+#### 13. Normal Aesthetic Evolution
 
 If we look broadly at a number of different art forms, and how they have evolved over time, then we can see a certain pattern that repeats itself:
 

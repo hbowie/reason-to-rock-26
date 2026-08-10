@@ -12,6 +12,8 @@ Well, here it is twenty-five years after the original publication of *Reason to 
 
 So, for those who might be interested, here are the major changes to the site made in '26. 
 
+*If you'd like to see what the old site looked like, you can still find it at [ReasonToRock.com/v01](v01/index.html).*
+
 [toc]
 
 ## Ditched the Album Reviews
@@ -23,10 +25,28 @@ Several things have changed since then:
 + Most of us are streaming our music these days, and not necessarily listening to entire albums;
 + Reissues, compilations, remasters and playlists (often algorithmically generated) have presented a moving target of how the tracks are currently packaged, and so a static (and now dated) list of album recommendations no longer seems worthwhile;
 + I never saw much indication that these album recommendations and mini-reviews were particularly popular elements of the site; 
-+ Many other sources of album reviews and recommandations are now available (including [All Music](https://www.allmusic.com)), so I'm not sure my little reviews are adding much any longer;
++ Many other sources of album reviews and recommendations are now available (including [All Music](https://www.allmusic.com)), so I'm not sure my little reviews are adding much any longer;
 + Back in '01, the music one could listen to was largely dictated by which albums you owned, and so I thought it would be worthwhile to provide purchasing advice; with streaming, though, it's generally all the music in the world for one price of admission, so purchasing advice is generally moot. 
 
 The only remaining trace of this content is a list of [[Five-Star Albums]] located in the [[Closing]] section. 
+
+## Improved Site URLs
+
+I had originally used a lot of underscores to separate words, and placed each section in its own folder. 
+
+So the web address for the Jackson Browne page used to be:
+
+```
+https://www.reasontorock.com/artists/jackson_browne.html
+```
+
+With the new scheme, the Jackson Browne URL is:
+
+```
+https://reasontorock.com/jackson-browne.html
+```
+
+However, I've also implemented redirects from the old addresses to the new ones, in case anyone has bookmarked these links. 
 
 ## Links to Apple Music instead of Amazon
 
@@ -36,7 +56,7 @@ But we're in the streaming age now, and so I provide links to Apple Music instea
 
 (Again, if enough of you were to sign up to Apple Music as a result of my links, I might see some income from this arrangement, but I have received none to date, and I'm not really expecting any in the future.)
 
-Why Apple Music? Well, it's the streaming service I use. But if you'd rather listen to your music on Spotify or YouTube, or acquire it from some other source, then, as Elliott Gould's Philip Marlowe says repeatedly in Altman's film adaptation of Chandler's *The Long Goodbye*: "[It's okay with me.](https://film-cred.com/its-okay-with-me-altmans-revisionist-noir-the-long-goodbye/)" 
+Why Apple Music? Well, it's the streaming service I use. But if you'd rather listen to your music on Spotify or YouTube, or acquire it from some other source, then, as Elliott Gould's Philip Marlowe says in Altman's film adaptation of Chandler's *The Long Goodbye*: "[It's okay with me.](https://film-cred.com/its-okay-with-me-altmans-revisionist-noir-the-long-goodbye/)" 
 
 ## Largely Removed Ancillary Links
 
@@ -62,7 +82,7 @@ Several things have changed since then. First, we have iPhones and tablets, and 
 
 And so, the *Reason to Rock* site is now laid out in a single column, without any distractions in adjoining columns. Just as if it were a book. (Which, indeed, it is.)
 
-## Generated from Notenik
+## Generated Straight from Notenik
 
 The original site was built using some complicated scripts and templates that were fed into an app called PSTextMerge, written in Java. 
 
@@ -77,4 +97,4 @@ Hope you enjoy reading it.
 --- Herb Bowie
 
 Seattle, Washington  
-August 6, 2026
+August 8, 2026

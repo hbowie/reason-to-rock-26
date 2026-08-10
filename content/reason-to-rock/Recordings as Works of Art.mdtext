@@ -6,6 +6,8 @@ Level:  3 - Topic
 
 Class:  text
 
+Redirect: elements/records_out.html
+
 Body:
 
 {:include-quotebiblio:I'm a record fan}
